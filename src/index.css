@@ -1,0 +1,294 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Bagoss;
+  src: url("/fonts/BagossExtendedTRIAL-Thin.woff2");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Bagoss;
+  src: url("/fonts/BagossExtendedTRIAL-ThinItalic.woff2");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Bagoss;
+  src: url("/fonts/BagossExtendedTRIAL-Light.woff2");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Bagoss;
+  src: url("/fonts/BagossExtendedTRIAL-LightItalic.woff2");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Bagoss;
+  src: url("/fonts/BagossExtendedTRIAL-Medium.woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Bagoss;
+  src: url("/fonts/BagossExtendedTRIAL-MediumItalic.woff2");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Bagoss;
+  src: url("/fonts/BagossExtendedTRIAL-Regular.woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Bagoss;
+  src: url("/fonts/BagossExtendedTRIAL-RegularItalic.woff2");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Bagoss;
+  src: url("/fonts/BagossExtendedTRIAL-SemiBold.woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Bagoss;
+  src: url("/fonts/BagossExtendedTRIAL-SemiBoldItalic.woff2");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Bagoss;
+  src: url("/fonts/BagossExtendedTRIAL-Bold.woff2");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Bagoss;
+  src: url("/fonts/BagossExtendedTRIAL-BoldItalic.woff2");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "InstrumentSans";
+  src: url("/fonts/InstrumentSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "InstrumentSans";
+  src: url("/fonts/InstrumentSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "InstrumentSans";
+  src: url("/fonts/InstrumentSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bagoss", sans-serif;
+  letter-spacing: -0.2px;
+}
+
+.hover-effect {
+  overflow: hidden; /* Ensures the underline does not extend outside the link */
+  position: relative;
+}
+
+.hover-effect .link-underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  transition: width 0.3s ease;
+}
+
+.hover-effect:hover .link-underline {
+  width: 100%;
+}
+.hover-effect .link-underline,
+.active .link-underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  transition: width 0.3s ease;
+}
+
+.hover-effect:hover .link-underline,
+.active .link-underline {
+  width: 100%;
+}
+
+.hero-img {
+  -webkit-animation: morph 8s ease-in-out infinite;
+  animation: morph 8s ease-in-out infinite;
+  background-image: url("/assets/fareed.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #2d2e32;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  height: 30rem;
+  position: relative;
+  transition: all 1s ease-in-out;
+  width: 30rem;
+}
+
+@-webkit-keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-img {
+    height: 18rem;
+    width: 18rem;
+  }
+}
+
+.img-side {
+  position: relative;
+}
+.img-side span {
+  width: 19rem;
+  height: 19rem;
+  position: absolute;
+  background-color: white;
+  bottom: -33px;
+  right: 33px;
+  border-radius: 50%;
+}
+
+.img-side span img {
+  width: 19rem;
+  animation: rotate 9s linear infinite;
+}
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.img-side__main-img {
+  width: 41rem;
+  height: 35rem;
+  border-radius: 1.7rem;
+}
+
+.work-emoji {
+  position: absolute;
+  z-index: 10;
+  width: 6rem;
+  bottom: 35px;
+  right: 98px;
+}
+
+@media (max-width: 460px) {
+  .img-side__main-img {
+    width: 90%;
+    height: auto;
+    flex-basis: min-content;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 2560px) {
+  .img-side__main-img {
+    width: 80%;
+    height: auto;
+  }
+  .img-side span {
+    width: 30%;
+    height: auto;
+
+    bottom: -40px;
+    right: 60px;
+  }
+  .work-emoji {
+    width: 10%;
+    height: auto;
+    bottom: 25px;
+    right: 115px;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 1024px) {
+  .img-side span {
+    width: 35%;
+    height: auto;
+    bottom: 10px;
+    right: 50px;
+  }
+  .img-side span img {
+    width: 17rem;
+  }
+  .work-emoji {
+    bottom: 65px;
+    right: 106px;
+  }
+  .img-side__main-img {
+    margin-bottom: 3.5rem;
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media (max-width: 750px) {
+  .img-side span {
+    display: none;
+  }
+  .work-emoji {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .reveal-on-scroll {
+    transform: translateY(10%);
+    transition: 0s ease-in;
+    -ms-overflow-style: hidden !important;
+    /* opacity: 0; */
+  }
+}
