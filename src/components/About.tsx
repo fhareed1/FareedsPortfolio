@@ -3,7 +3,7 @@ const About = () => {
     <>
       <div
         id="about"
-        className="bg-white w-full  min-h-screen flex flex-col items-center lg:flex-row lg:justify-between px-[40px] sm:px-[70px]  py-[80px] lg:py-[150px] content-center"
+        className="bg-white w-full  min-h-screen flex flex-col items-center lg:flex-row lg:justify-between px-[40px] sm:px-[70px]  py-[80px] lg:py-[150px] content-center justify-around sm:justify-normal"
       >
         {/* Image */}
         <div className="flex w-full img-side">
