@@ -29,9 +29,9 @@ const HeroSection = () => {
             {/* subtext */}
             <div className="w-full">
               <p className="leading-6 w-full text-center  lg:text-justify items-start">
-                Hi, I'm Fareed Folorunsho. A passionate Front-end React
+                Hi, I'm Fareed Folorunsho. A passionate Front-end React & Next
                 <br className="lg:block hidden " />
-                Developer based in Lagos, Nigeria. 📍
+                <span className="pl-1 sm:pl-0">Developer</span>  based in Lagos, Nigeria. 📍
               </p>
             </div>
             {/* Links */}
