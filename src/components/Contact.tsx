@@ -1,9 +1,13 @@
-
+import { FaRegAddressBook } from "react-icons/fa";
+import { VscPreview } from "react-icons/vsc";
 
 const Contact = () => {
   return (
     <>
-      <section id="contact" className="py-[11rem] px-[40px] sm:px-[70px] bg-[#fff]">
+      <section
+        id="contact"
+        className="py-[11rem] px-[40px] sm:px-[70px] bg-[#fff]"
+      >
         <div className="max-w-[107rem] ">
           <div className="flex flex-col">
             <div className="">
@@ -68,6 +72,28 @@ const Contact = () => {
                     className="text-[#767676] cursor-pointer text-lg"
                   >
                     folorunshofareed0@gmail.com
+                  </a>
+                </div>
+              </div>
+              <div className="flex items-center gap-[1.5rem]">
+                <span className="items-center bg-[#fff] rounded-[50%] shadow-[0_0_10px_rgba(0,0,0,0.1)] text-[#147efb] flex h-[3rem] justify-center w-[3rem] sm:w-[5rem] sm:h-[5rem] ">
+                  <FaRegAddressBook color="blue" size={20} />
+                </span>
+                <div className="flex flex-col gap-[.5rem]">
+                  <a
+                    href="https://docs.google.com/document/d/1sF94ckt3Hs-qQhZgJRewQbksAAfGxOiLt8L1NROlTGM/edit?usp=sharing"
+                    target="_blank"
+                    download
+                    className="text-base font-semibold"
+                  >
+                    Resume
+                  </a>
+                  <a
+                    href="https://docs.google.com/document/d/1sF94ckt3Hs-qQhZgJRewQbksAAfGxOiLt8L1NROlTGM/edit?usp=sharing"
+                    className="flex gap-1"
+                  >
+                    <VscPreview size={20} />
+                    Click to view
                   </a>
                 </div>
               </div>
