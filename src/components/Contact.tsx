@@ -79,23 +79,18 @@ const Contact = () => {
                 <span className="items-center bg-[#fff] rounded-[50%] shadow-[0_0_10px_rgba(0,0,0,0.1)] text-[#147efb] flex h-[3rem] justify-center w-[3rem] sm:w-[5rem] sm:h-[5rem] ">
                   <FaRegAddressBook color="blue" size={20} />
                 </span>
-                <div className="flex flex-col gap-[.5rem]">
-                  <a
-                    href="https://docs.google.com/document/d/1sF94ckt3Hs-qQhZgJRewQbksAAfGxOiLt8L1NROlTGM/edit?usp=sharing"
-                    target="_blank"
-                    download
-                    className="text-base font-semibold"
-                  >
-                    Resume
-                  </a>
-                  <a
-                    href="https://docs.google.com/document/d/1sF94ckt3Hs-qQhZgJRewQbksAAfGxOiLt8L1NROlTGM/edit?usp=sharing"
-                    className="flex gap-1"
-                  >
+                <a
+                  href="https://docs.google.com/document/d/1sF94ckt3Hs-qQhZgJRewQbksAAfGxOiLt8L1NROlTGM/edit?usp=sharing"
+                  className="flex flex-col gap-[.5rem]"
+                  target="_blank"
+                  download
+                >
+                  <p className="text-base font-semibold">Resume</p>
+                  <p className="flex gap-1">
                     <VscPreview size={20} />
                     Click to view
-                  </a>
-                </div>
+                  </p>
+                </a>
               </div>
             </div>
           </div>
