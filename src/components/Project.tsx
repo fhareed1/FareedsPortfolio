@@ -42,9 +42,19 @@ const CustomWork: React.FC<CustomWorkProps> = ({
 const Project = () => {
   return (
     <>
-      <div  id="projects" className="bg-[#f9f9f9] min-h-screen px-[70px] py-[80px] lg:py-[100px]">
+      <div
+        id="projects"
+        className="bg-[#f9f9f9] min-h-screen px-[70px] py-[80px] lg:py-[100px]"
+      >
         <h1 className="font-semibold text-3xl mb-5">Projects</h1>
         <div className="grid grid-cols-auto-fit-250 gap-10">
+          <CustomWork
+            workImg="/assets/barrel.png"
+            workAltName="Barrel Landing Page"
+            workTitle="Barrel Landing Page"
+            workDescription="This is a procurement automation"
+            workURLlink="https://usebarrel.io/"
+          />
           <CustomWork
             workImg="/assets/passwave.png"
             workAltName="Ticketing Events app"
@@ -59,13 +69,13 @@ const Project = () => {
             workDescription="This is a Ai Site."
             workURLlink="https://reedcarwash.netlify.app/"
           />
-          <CustomWork
+          {/* <CustomWork
             workImg="/assets/carscreenshot.png"
             workAltName="Car Site"
             workTitle="Car Wash Site"
             workDescription="This is a Car Wash Site."
             workURLlink="https://reedcarwash.netlify.app/"
-          />
+          /> */}
           <CustomWork
             workImg="/assets/work2.jpg"
             workAltName="Food App"
