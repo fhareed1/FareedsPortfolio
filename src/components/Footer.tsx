@@ -1,6 +1,6 @@
 import { PiLinkedinLogoBold } from "react-icons/pi";
 import { FiGithub } from "react-icons/fi";
-import { BsTwitterX } from "react-icons/bs";
+// import { BsTwitterX } from "react-icons/bs";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
