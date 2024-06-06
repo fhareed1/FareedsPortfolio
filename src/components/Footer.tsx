@@ -24,9 +24,9 @@ const Footer = () => {
               <a href="https://github.com/fhareed1/" target="_blank">
                 <FiGithub size={32} color="white" />
               </a>
-              <a href="https://x.com/CodedFareed/" target="_blank">
+              {/* <a href="https://x.com/CodedFareed/" target="_blank">
                 <BsTwitterX size={32} color="white" />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

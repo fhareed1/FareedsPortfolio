@@ -46,9 +46,9 @@ const HeroSection = () => {
               <a href="https://github.com/fhareed1/" target="_blank">
                 <FiGithub size={32} />
               </a>
-              <a href="https://x.com/CodedFareed/" target="_blank">
+              {/* <a href="https://x.com/CodedFareed/" target="_blank">
                 <BsTwitterX size={32} />
-              </a>
+              </a> */}
             </div>
           </div>
           {/* Right section */}
