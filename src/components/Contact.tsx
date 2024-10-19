@@ -80,7 +80,7 @@ const Contact = () => {
                   <FaRegAddressBook color="blue" size={20} />
                 </span>
                 <a
-                  href="https://docs.google.com/document/d/1sF94ckt3Hs-qQhZgJRewQbksAAfGxOiLt8L1NROlTGM/edit?usp=sharing"
+                  href="https://drive.google.com/file/d/1NoPXILpCwzvKx-WAdL7zOlqxtwZV5WE0/view?usp=drive_link"
                   className="flex flex-col gap-[.5rem]"
                   target="_blank"
                   download
