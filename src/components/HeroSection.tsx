@@ -31,7 +31,8 @@ const HeroSection = () => {
               <p className="leading-6 w-full text-center  lg:text-justify items-start">
                 Hi, I'm Fareed Folorunsho. A passionate Software
                 <br className="lg:block hidden " />
-                <span className="pl-1 sm:pl-0">Engineer</span>  based in Lagos, Nigeria. 📍
+                <span className="pl-1 sm:pl-0">Engineer</span> based in Lagos,
+                Nigeria. 📍
               </p>
             </div>
             {/* Links */}
@@ -88,6 +89,13 @@ const HeroSection = () => {
                 src="https://skillicons.dev/icons?i=tailwind,scss"
                 alt="skill-icon"
                 className="transition-all ease-in-out 0.3s hover:translate-y-[-1rem]"
+              />
+            </li>
+            <li className="cursor-pointer">
+              <img
+                src="https://skillicons.dev/icons?i=nodejs,express,postgres"
+                alt="skill-icon"
+                className="transition-all ease-in-out duration-300 hover:translate-y-[-1rem]"
               />
             </li>
           </ul>
