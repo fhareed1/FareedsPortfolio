@@ -49,13 +49,6 @@ const Project = () => {
         <h1 className="font-semibold text-3xl mb-5">Projects</h1>
         <div className="grid grid-cols-auto-fit-250 gap-10">
           <CustomWork
-            workImg="/assets/barrel.png"
-            workAltName="Barrel Landing Page"
-            workTitle="Barrel Landing Page"
-            workDescription="This is a procurement automation"
-            workURLlink="https://usebarrel.io/"
-          />
-          <CustomWork
             workImg="/assets/passwave.png"
             workAltName="Ticketing Events app"
             workTitle="Ticketing Events app"
@@ -63,12 +56,34 @@ const Project = () => {
             workURLlink="https://www.passwave.ng/"
           />
           <CustomWork
-            workImg="/assets/aiscreenshot.png"
-            workAltName="Ai Site"
-            workTitle="Ai Site"
-            workDescription="This is a Ai Site."
-            workURLlink="https://reedcarwash.netlify.app/"
+            workImg="/assets/barrel.png"
+            workAltName="Barrel"
+            workTitle="Barrel"
+            workDescription="This is a procurement company"
+            workURLlink="#"
           />
+          
+          {/* <CustomWork
+            workImg="/assets/aiscreenshot.png"
+            workAltName="Ai site"
+            workTitle="Ai site"
+            workDescription="This is a Ai Site."
+            workURLlink="https://reedai.netlify.app/"
+          />
+          <CustomWork
+            workImg="/assets/work1.jpg"
+            workAltName="Movie app"
+            workTitle="Movie app"
+            workDescription="This is integrated with a movies API."
+            workURLlink="https://fhareedhngtwo.netlify.app/"
+          />
+          <CustomWork
+            workImg="/assets/work3.jpg"
+            workAltName="Weather app"
+            workTitle="Github UserFinder"
+            workDescription="This allows you search for a github user"
+            workURLlink="https://fhareed1.github.io/githubfinder/"
+          /> */}
           {/* <CustomWork
             workImg="/assets/carscreenshot.png"
             workAltName="Car Site"
@@ -76,7 +91,7 @@ const Project = () => {
             workDescription="This is a Car Wash Site."
             workURLlink="https://reedcarwash.netlify.app/"
           /> */}
-          <CustomWork
+          {/* <CustomWork
             workImg="/assets/work2.jpg"
             workAltName="Food App"
             workTitle="Food App"
@@ -89,21 +104,8 @@ const Project = () => {
             workTitle="Expense App"
             workDescription="This is a React Expense App."
             workURLlink="https://fareed-expense-app.netlify.app/"
-          />
-          <CustomWork
-            workImg="/assets/work1.jpg"
-            workAltName="Weather app"
-            workTitle="Weather App"
-            workDescription="This allows you to search the live update of the weather."
-            workURLlink="https://fhareed1.github.io/Weather-App/"
-          />
-          <CustomWork
-            workImg="/assets/work3.jpg"
-            workAltName="Weather app"
-            workTitle="Github UserFinder"
-            workDescription="This allows you search for a github user"
-            workURLlink="https://fhareed1.github.io/githubfinder/"
-          />
+          /> */}
+          
         </div>
       </div>
     </>

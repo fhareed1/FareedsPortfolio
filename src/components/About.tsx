@@ -7,7 +7,7 @@ const About = () => {
       >
         {/* Image */}
         <div className="flex w-full img-side">
-          <img src="/assets/working-emoji.png" alt="" className="work-emoji" />
+          {/* <img src="/assets/working-emoji.png" alt="" className="work-emoji" /> */}
           <img
             src="/assets/about.webp"
             alt=""
@@ -24,15 +24,14 @@ const About = () => {
             About me
           </h3>
           <h4 className="text-2xl sm:text-[30px] leading-[1.4] font-semibold text-center sm:text-justify">
-            Front-end Developer <br /> based in Lagos, Nigeria 📍
+            Software engineer <br /> based in Lagos, Nigeria 📍
           </h4>
           <p className="font-medium text-[#767676] leading-[1.5] text-center sm:text-justify">
-            Hey, my name is Fareed, and I'm a Frontend Developer. My passion is
-            to create and develop a clean UI/UX for my users.
+            Hey, my name is Fareed, and I'm a Software engineer. My passion is
+            to create and develop a applications for my users.
             <br />
             <br />
-            My main stack currently is React/Next.js in combination with
-            Tailwind CSS and TypeScript.
+            My main stack currently is TypeScript, Javascript, React/Next.js, Node, Express, PostgreSQL.
           </p>
         </div>
       </div>
