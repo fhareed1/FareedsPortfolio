@@ -56,11 +56,11 @@ const Project = () => {
             workURLlink="https://www.passwave.ng/"
           />
           <CustomWork
-            workImg="/assets/barrel.png"
-            workAltName="Barrel"
-            workTitle="Barrel"
-            workDescription="This is a procurement company"
-            workURLlink="#"
+            workImg="/assets/gradworks.png"
+            workAltName="Gradworks"
+            workTitle="Gradworks"
+            workDescription="This is a document management system for schools"
+            workURLlink="https://grad-work-fe.vercel.app/"
           />
           
           {/* <CustomWork
