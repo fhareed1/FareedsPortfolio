@@ -24,14 +24,21 @@ const About = () => {
             About me
           </h3>
           <h4 className="text-2xl sm:text-[30px] leading-[1.4] font-semibold text-center sm:text-justify">
-            Software engineer <br /> based in Lagos, Nigeria 📍
+            Software engineer
           </h4>
           <p className="font-medium text-[#767676] leading-[1.5] text-center sm:text-justify">
-            Hey, my name is Fareed, and I'm a Software engineer. My passion is
-            to create and develop a applications for my users.
+            A full-stack engineer with hands-on experience in infrastructure,
+            API architecture, and UI/UX, I’ve delivered systems that manage
+            procurement flows, digital repositories, and event platforms—like
+            PassWave and Barrel—serving hundreds of users and processing
+            transactions at scale. Whether it's building internal admin
+            dashboards, real-time features, or automating workflows, I thrive in
+            creating robust, user-focused solutions that simplify complex
+            processes.
             <br />
             <br />
-            My main stack currently is TypeScript, Javascript, React/Next.js, Node, Express, PostgreSQL.
+            My main stack currently is TypeScript, Javascript, React/Next.js,
+            Node, Express, PostgreSQL.
           </p>
         </div>
       </div>

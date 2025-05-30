@@ -16,23 +16,17 @@ const HeroSection = () => {
             {/* h1 */}
             <div className="flex flex-row gap-1 items-center w-full text-center place-content-center lg:place-content-start">
               <h1 className="text-3xl sm:text-5xl font-semibold sm:font-medium whitespace-nowrap text-center">
-                Software Engineer
+                Hi, I'm <span className="text-blue-600"> Fareed Folorunsho </span>
               </h1>
-              <img
-                src="/assets/waving.png"
-                alt=""
-                width={60}
-                height={60}
-                className="sm:w-[60px] sm:h-[60px] w-[45px] h-[45px]"
-              />
             </div>
             {/* subtext */}
             <div className="w-full">
               <p className="leading-6 w-full text-center  lg:text-justify items-start">
-                Hi, I'm Fareed Folorunsho. A passionate Software
-                <br className="lg:block hidden " />
-                <span className="pl-1 sm:pl-0">Engineer</span> based in Lagos,
-                Nigeria. 📍
+                A full-stack engineer passionate about building end-to-end
+                systems that power real-world operations. I specialize in
+                crafting scalable web applications using Node.js, PostgreSQL,
+                and Express on the backend, paired with React, TailwindCSS, and
+                GraphQL/REST on the frontend.
               </p>
             </div>
             {/* Links */}
